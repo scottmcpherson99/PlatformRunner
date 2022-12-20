@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PlatformRunner.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C6F52968-6F19-4700-A43B-9D06F71909CB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PlatformRunner.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PlatformRunnerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CAC06AFB-70FA-4889-AFC0-084096EDEA29}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PlatformRunner">
+      <UniqueIdentifier>{C466230E-1E4F-4C8A-B74B-81FDB60CA72D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PlatformRunner\PlatformRunner.Build.cs">
+      <Filter>Source\PlatformRunner</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunner.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunner.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunnerCharacter.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerCharacter.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlayerCharacter.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
