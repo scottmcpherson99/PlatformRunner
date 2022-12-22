@@ -1,2 +1,2 @@
-D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
-D:\Unreal Projects\PlatformRunner\Source\PlatformRunner\PlatformRunner.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformRunner.h

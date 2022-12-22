@@ -1,16 +1,17 @@
-﻿  Parsing headers for PlatformRunnerEditor
-    Running UnrealHeaderTool "D:\Unreal Projects\PlatformRunner\PlatformRunner.uproject" "D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\PlatformRunnerEditor\Development\PlatformRunnerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\scott\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for PlatformRunnerEditor in 7.4927888 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\GitHub\PlatformRunner).
+  Parsing headers for PlatformRunnerEditor
+    Running UnrealHeaderTool "D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\PlatformRunner.uproject" "D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\PlatformRunnerEditor\Development\PlatformRunnerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\scott\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for PlatformRunnerEditor in 3.2905318 seconds
   Building PlatformRunnerEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 6 actions with 16 processes...
     [1/6] PlatformRunner.init.gen.cpp
-    [2/6] PlayerCharacter.gen.cpp
-    [3/6] PlayerCharacter.cpp
-    [4/6] UE4Editor-PlatformRunner-0007.lib
-       Creating library D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0007.lib and object D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0007.exp
-    [5/6] UE4Editor-PlatformRunner-0007.dll
-       Creating library D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0007.suppressed.lib and object D:\Unreal Projects\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0007.suppressed.exp
+    [2/6] ObstacleBase.cpp
+    [3/6] ObstacleBase.gen.cpp
+    [4/6] UE4Editor-PlatformRunner-0004.lib
+       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0004.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0004.exp
+    [5/6] UE4Editor-PlatformRunner-0004.dll
+       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0004.suppressed.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0004.suppressed.exp
     [6/6] PlatformRunnerEditor.target
-  Total time in Parallel executor: 94.55 seconds
-  Total execution time: 102.82 seconds
+  Total time in Parallel executor: 191.46 seconds
+  Total execution time: 197.67 seconds

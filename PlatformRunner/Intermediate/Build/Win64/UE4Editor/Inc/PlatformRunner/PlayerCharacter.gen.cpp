@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/PlayerCharacter.h"
+#include "PlatformRunner/PlayerCharacter/PlayerCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -57,8 +57,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "PlayerCharacter.h" },
-		{ "ModuleRelativePath", "PlayerCharacter.h" },
+		{ "IncludePath", "PlayerCharacter/PlayerCharacter.h" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Camera boom positioning the camera beside the character */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "PlayerCharacter.h" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera beside the character" },
 	};
 #endif
@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Side view camera */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "PlayerCharacter.h" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
 		{ "ToolTip", "Side view camera" },
 	};
 #endif
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_jumpSound_MetaData[] = {
 		{ "Category", "Audio" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n//  <Audio>\n// play the sound for the player's jump\n" },
-		{ "ModuleRelativePath", "PlayerCharacter.h" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
 		{ "ToolTip", "<Audio>\nplay the sound for the player's jump" },
 	};
 #endif
@@ -124,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 4275113971);
+	IMPLEMENT_CLASS(APlayerCharacter, 1023090321);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();

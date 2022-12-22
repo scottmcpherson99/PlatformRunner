@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLATFORMRUNNER_PlayerCharacter_generated_h
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_SPARSE_DATA
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_RPC_WRAPPERS
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_SPARSE_DATA
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_RPC_WRAPPERS
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_INCLASS \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerCharacter(APlayerCharacter&&); \
@@ -58,33 +58,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(APlayerCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, SideViewCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__jumpSound() { return STRUCT_OFFSET(APlayerCharacter, jumpSound); }
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_9_PROLOG
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_GENERATED_BODY_LEGACY \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_9_PROLOG
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_SPARSE_DATA \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_RPC_WRAPPERS \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_INCLASS \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_STANDARD_CONSTRUCTORS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_SPARSE_DATA \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_RPC_WRAPPERS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_INCLASS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_GENERATED_BODY \
+#define PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_SPARSE_DATA \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	PlatformRunner_Source_PlatformRunner_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_SPARSE_DATA \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
+	PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLATFORMRUNNER_API UClass* StaticClass<class APlayerCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID PlatformRunner_Source_PlatformRunner_PlayerCharacter_h
+#define CURRENT_FILE_ID PlatformRunner_Source_PlatformRunner_PlayerCharacter_PlayerCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

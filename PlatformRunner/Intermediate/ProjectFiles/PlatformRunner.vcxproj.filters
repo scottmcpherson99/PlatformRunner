@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlatformRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C6F52968-6F19-4700-A43B-9D06F71909CB}</UniqueIdentifier>
+      <UniqueIdentifier>{5151CA94-9AFD-4162-B827-B098C3C6DCC9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CAC06AFB-70FA-4889-AFC0-084096EDEA29}</UniqueIdentifier>
+      <UniqueIdentifier>{F3C251DE-A88A-4408-AE5E-B9BAB739578A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PlatformRunner">
-      <UniqueIdentifier>{C466230E-1E4F-4C8A-B74B-81FDB60CA72D}</UniqueIdentifier>
+      <UniqueIdentifier>{1F46C7F2-7163-45DB-A686-D4150BF3F5C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner\PlatformRunner.Build.cs">
       <Filter>Source\PlatformRunner</Filter>
@@ -41,23 +41,29 @@
     <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunner.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunnerCharacter.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerCharacter.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.cpp">
       <Filter>Source\PlatformRunner</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter.cpp">
-      <Filter>Source\PlatformRunner</Filter>
+    <Filter Include="Source\PlatformRunner\Obstacles">
+      <UniqueIdentifier>{6A12EF33-8592-474B-8452-38A16D8818E0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PlayerCharacter.h">
-      <Filter>Source\PlatformRunner</Filter>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
+    <Filter Include="Source\PlatformRunner\PlayerCharacter">
+      <UniqueIdentifier>{AC1DCC68-D572-4B0B-9D53-85B2361F0306}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.cpp">
+      <Filter>Source\PlatformRunner\PlayerCharacter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.h">
+      <Filter>Source\PlatformRunner\PlayerCharacter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

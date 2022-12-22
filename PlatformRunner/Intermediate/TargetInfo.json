@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "PlatformRunner",
-			"Path": "D:\\Unreal Projects\\PlatformRunner\\Source\\PlatformRunner.Target.cs",
+			"Path": "D:\\Unreal Projects\\GitHub\\PlatformRunner\\PlatformRunner\\Source\\PlatformRunner.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PlatformRunnerEditor",
-			"Path": "D:\\Unreal Projects\\PlatformRunner\\Source\\PlatformRunnerEditor.Target.cs",
+			"Path": "D:\\Unreal Projects\\GitHub\\PlatformRunner\\PlatformRunner\\Source\\PlatformRunnerEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
