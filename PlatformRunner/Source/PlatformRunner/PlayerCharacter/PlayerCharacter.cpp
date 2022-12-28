@@ -34,6 +34,11 @@ APlayerCharacter::APlayerCharacter()
 	SideViewCameraComponent->bUsePawnControlRotation = false;
 	SideViewCameraComponent->bAutoActivate = true;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	// set the default attributes
+	baseJumpVelocity = 1000;
+	baseWalkSpeed = 600;
+	SetActivePowerup(EPowerup::ENone);
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -52,6 +57,22 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Setters and Getters
+void APlayerCharacter::SetActivePowerup(EPowerup newPowerup)
+{
+	// update the active powerup and apply the effects
+	activePowerup = newPowerup;
+	HandleNewPowerup();
+}
+
+EPowerup APlayerCharacter::GetActivePowerup()
+{
+	return activePowerup;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -99,6 +120,44 @@ void APlayerCharacter::MoveRight(float movementValue_)
 	if (Controller && (movementValue_ != 0.0f))
 	{
 		AddMovementInput(FVector(1.0f * movementValue_, 0.0f, 0.0f));
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// <Powerup>
+void APlayerCharacter::HandleNewPowerup()
+{
+	// apply changes based on the new powerup
+	switch (activePowerup)
+	{
+		// no active powerup
+	case EPowerup::ENone:
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("No powerup")));
+		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity;
+		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed;
+		break;
+
+		// jump boost powerup
+	case EPowerup::EJumpBoost:
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Jump Boost")));
+		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity * 1.5;
+		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed;
+		break;
+
+		// spped boost powerup
+	case EPowerup::ESpeedBoost:
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Speed Boost")));
+		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity;
+		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed * 1.5;
+		break;
+
+		// jetpack powerup
+	case EPowerup::EJetPack:
+
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Jetpack Boost")));
+		break;
 	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////

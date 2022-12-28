@@ -13,14 +13,77 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 // Cross Module References
+	PLATFORMRUNNER_API UEnum* Z_Construct_UEnum_PlatformRunner_EPowerup();
+	UPackage* Z_Construct_UPackage__Script_PlatformRunner();
 	PLATFORMRUNNER_API UClass* Z_Construct_UClass_APlayerCharacter_NoRegister();
 	PLATFORMRUNNER_API UClass* Z_Construct_UClass_APlayerCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_PlatformRunner();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
+	static UEnum* EPowerup_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_PlatformRunner_EPowerup, Z_Construct_UPackage__Script_PlatformRunner(), TEXT("EPowerup"));
+		}
+		return Singleton;
+	}
+	template<> PLATFORMRUNNER_API UEnum* StaticEnum<EPowerup>()
+	{
+		return EPowerup_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPowerup(EPowerup_StaticEnum, TEXT("/Script/PlatformRunner"), TEXT("EPowerup"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_PlatformRunner_EPowerup_Hash() { return 3813722526U; }
+	UEnum* Z_Construct_UEnum_PlatformRunner_EPowerup()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_PlatformRunner();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EPowerup"), 0, Get_Z_Construct_UEnum_PlatformRunner_EPowerup_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EPowerup::ENone", (int64)EPowerup::ENone },
+				{ "EPowerup::EJumpBoost", (int64)EPowerup::EJumpBoost },
+				{ "EPowerup::EJetPack", (int64)EPowerup::EJetPack },
+				{ "EPowerup::ESpeedBoost", (int64)EPowerup::ESpeedBoost },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "EJetPack.DisplayName", "JetPack" },
+				{ "EJetPack.Name", "EPowerup::EJetPack" },
+				{ "EJumpBoost.DisplayName", "JumpBoost" },
+				{ "EJumpBoost.Name", "EPowerup::EJumpBoost" },
+				{ "ENone.DisplayName", "None" },
+				{ "ENone.Name", "EPowerup::ENone" },
+				{ "ESpeedBoost.DisplayName", "SpeedBoost" },
+				{ "ESpeedBoost.Name", "EPowerup::ESpeedBoost" },
+				{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_PlatformRunner,
+				nullptr,
+				"EPowerup",
+				"EPowerup",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void APlayerCharacter::StaticRegisterNativesAPlayerCharacter()
 	{
 	}
@@ -46,6 +109,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_jumpSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_jumpSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_baseJumpVelocity_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_baseJumpVelocity;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_baseWalkSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_baseWalkSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -92,10 +163,30 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_jumpSound = { "jumpSound", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, jumpSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_jumpSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_jumpSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseJumpVelocity_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "Comment", "// the base jump velocity for the player\n" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
+		{ "ToolTip", "the base jump velocity for the player" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseJumpVelocity = { "baseJumpVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, baseJumpVelocity), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseJumpVelocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseJumpVelocity_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseWalkSpeed_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "Comment", "// the base speed for the player\n" },
+		{ "ModuleRelativePath", "PlayerCharacter/PlayerCharacter.h" },
+		{ "ToolTip", "the base speed for the player" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseWalkSpeed = { "baseWalkSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, baseWalkSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseWalkSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseWalkSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_jumpSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseJumpVelocity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_baseWalkSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerCharacter>::IsAbstract,
@@ -124,7 +215,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 1023090321);
+	IMPLEMENT_CLASS(APlayerCharacter, 3449927642);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();

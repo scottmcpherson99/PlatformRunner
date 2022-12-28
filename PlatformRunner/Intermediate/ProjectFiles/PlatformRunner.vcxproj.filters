@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlatformRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5151CA94-9AFD-4162-B827-B098C3C6DCC9}</UniqueIdentifier>
+      <UniqueIdentifier>{9D1F9CEE-B01F-4C57-8E0C-FC0ECDA7B4EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F3C251DE-A88A-4408-AE5E-B9BAB739578A}</UniqueIdentifier>
+      <UniqueIdentifier>{EFE44D53-5254-4198-A524-8102995FFA5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PlatformRunner">
-      <UniqueIdentifier>{1F46C7F2-7163-45DB-A686-D4150BF3F5C4}</UniqueIdentifier>
+      <UniqueIdentifier>{B0687655-6C82-431F-BBD3-D9DCD27F0332}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\JetPackBoost.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\JetPackBoost.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\JumpBoost.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\JumpBoost.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PlatformRunner\PlatformRunner.Build.cs">
       <Filter>Source\PlatformRunner</Filter>
     </None>
@@ -47,8 +59,20 @@
     <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\PowerupBase.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PowerupBase.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\SpeedBoost.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\SpeedBoost.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
     <Filter Include="Source\PlatformRunner\Obstacles">
-      <UniqueIdentifier>{6A12EF33-8592-474B-8452-38A16D8818E0}</UniqueIdentifier>
+      <UniqueIdentifier>{1C27AA5B-0594-4931-BB61-39045BCC2477}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.cpp">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
@@ -57,7 +81,7 @@
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\PlayerCharacter">
-      <UniqueIdentifier>{AC1DCC68-D572-4B0B-9D53-85B2361F0306}</UniqueIdentifier>
+      <UniqueIdentifier>{22BC036E-4938-4BFA-9CF2-7B439EFF4479}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.cpp">
       <Filter>Source\PlatformRunner\PlayerCharacter</Filter>

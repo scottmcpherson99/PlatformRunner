@@ -6,6 +6,14 @@
 #include "GameFramework/Character.h"
 #include "PlayerCharacter.generated.h"
 
+UENUM(BlueprintType)
+enum class EPowerup : uint8 {
+	ENone UMETA(DisplayName = "None"),
+	EJumpBoost UMETA(DisplayName = "JumpBoost"),
+	EJetPack UMETA(DisplayName = "JetPack"),
+	ESpeedBoost UMETA(DisplayName = "SpeedBoost")
+};
+
 UCLASS()
 class PLATFORMRUNNER_API APlayerCharacter : public ACharacter
 {
@@ -14,6 +22,16 @@ class PLATFORMRUNNER_API APlayerCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// <SettersandGetters>
+	// set the new powerup for the player
+	void SetActivePowerup(EPowerup newPowerup);
+
+	// return the active player's powerup
+	EPowerup GetActivePowerup();
+	// </SettersandGetters>
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 protected:
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -63,10 +81,34 @@ protected:
 
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  <Powerup>
+	// apply changes to player's stats based on the new powerup
+	void HandleNewPowerup();
+	// </Powerup>
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//  <Audio>
 	// play the sound for the player's jump
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
 		class USoundBase* jumpSound;
 	// </Audio>
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+private:
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  <Attributes>
+	// the active powerup for the player
+	EPowerup activePowerup;
+
+	// the base jump velocity for the player
+	UPROPERTY(EditAnywhere, Category = "Movement")
+		float baseJumpVelocity;
+
+	// the base speed for the player
+	UPROPERTY(EditAnywhere, Category = "Movement")
+		float baseWalkSpeed;
+	// </Attributes>
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 };
