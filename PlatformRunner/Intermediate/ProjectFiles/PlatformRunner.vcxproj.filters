@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlatformRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9D1F9CEE-B01F-4C57-8E0C-FC0ECDA7B4EE}</UniqueIdentifier>
+      <UniqueIdentifier>{B73F37D3-5DFC-4A03-88C3-9047A858A21B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EFE44D53-5254-4198-A524-8102995FFA5A}</UniqueIdentifier>
+      <UniqueIdentifier>{CF3146AE-1B3C-4E33-9937-7971835FC3AD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PlatformRunner">
-      <UniqueIdentifier>{B0687655-6C82-431F-BBD3-D9DCD27F0332}</UniqueIdentifier>
+      <UniqueIdentifier>{74FDA5EF-BA04-4763-9109-CEF5162B576C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\JetPackBoost.cpp">
       <Filter>Source\PlatformRunner</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\PlatformRunner</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PlatformRunner\JumpBoost.h">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\PlatformBase.cpp">
+      <Filter>Source\PlatformRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\PlatformBase.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
     <None Include="..\..\Source\PlatformRunner\PlatformRunner.Build.cs">
@@ -72,7 +78,7 @@
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\Obstacles">
-      <UniqueIdentifier>{1C27AA5B-0594-4931-BB61-39045BCC2477}</UniqueIdentifier>
+      <UniqueIdentifier>{C7BFEB96-B742-4594-8ACB-13C79AF15B50}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.cpp">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
@@ -81,7 +87,7 @@
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\PlayerCharacter">
-      <UniqueIdentifier>{22BC036E-4938-4BFA-9CF2-7B439EFF4479}</UniqueIdentifier>
+      <UniqueIdentifier>{C90CAA47-E84A-4414-BFEE-1B69242F0D7A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.cpp">
       <Filter>Source\PlatformRunner\PlayerCharacter</Filter>

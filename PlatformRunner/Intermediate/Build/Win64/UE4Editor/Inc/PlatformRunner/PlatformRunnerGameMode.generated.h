@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlatformRunnerGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlatformRunnerGameMode)
 
 
-#define PlatformRunner_Source_PlatformRunner_PlatformRunnerGameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define PlatformRunner_Source_PlatformRunner_PlatformRunnerGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__startingPlatform() { return STRUCT_OFFSET(APlatformRunnerGameMode, startingPlatform); }
+
+
 #define PlatformRunner_Source_PlatformRunner_PlatformRunnerGameMode_h_9_PROLOG
 #define PlatformRunner_Source_PlatformRunner_PlatformRunnerGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -134,29 +134,24 @@ void APlayerCharacter::HandleNewPowerup()
 	{
 		// no active powerup
 	case EPowerup::ENone:
-		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("No powerup")));
 		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity;
 		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed;
 		break;
 
 		// jump boost powerup
 	case EPowerup::EJumpBoost:
-		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Jump Boost")));
 		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity * 1.5;
 		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed;
 		break;
 
 		// spped boost powerup
 	case EPowerup::ESpeedBoost:
-		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Speed Boost")));
 		GetCharacterMovement()->JumpZVelocity = baseJumpVelocity;
 		GetCharacterMovement()->MaxWalkSpeed = baseWalkSpeed * 1.5;
 		break;
 
 		// jetpack powerup
 	case EPowerup::EJetPack:
-
-		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Jetpack Boost")));
 		break;
 	}
 }

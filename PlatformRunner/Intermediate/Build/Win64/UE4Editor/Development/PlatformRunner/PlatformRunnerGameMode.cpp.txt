@@ -5,3 +5,5 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlatformRunnerGameMode.generated.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformBase.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlatformBase.generated.h
