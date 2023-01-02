@@ -9,6 +9,8 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlayerCharacter.generated.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformSpawner.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlatformSpawner.generated.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformRunnerGameMode.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h

@@ -3,6 +3,7 @@
 
 #include "PlatformBase.h"
 #include "PlatformRunner/PlayerCharacter/PlayerCharacter.h"
+#include "PlatformSpawner.h"
 #include "PlatformRunnerGameMode.h"
 #include "Components/SceneComponent.h"
 #include "Components/BoxComponent.h"
@@ -33,6 +34,9 @@ void APlatformBase::BeginPlay()
 
 	//turn on collision checks
 	triggerBox->OnComponentBeginOverlap.AddDynamic(this, &APlatformBase::OnTriggerBoxOverlap);
+
+	// set the value of player passed to false
+	hasPlayerPassed = false;
 }
 
 // Called every frame
@@ -51,14 +55,17 @@ void APlatformBase::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent
 {
 	APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(OtherActor);
 
-	//if the colliding actor is the player, spawn the next tile platform
-	if (playerCharacter != nullptr)
+	//if the colliding actor is the player and the player has not already passed the checkpoint, spawn the next tile platform
+	if (playerCharacter != nullptr && hasPlayerPassed == false)
 	{
-		//find the current gamemode and spawn the next tile
-		APlatformRunnerGameMode* gameMode = Cast<APlatformRunnerGameMode>((APlatformRunnerGameMode*)GetWorld()->GetAuthGameMode());
-		if (gameMode != nullptr)
+		// set he value of hasPlayerPassed to true to avoid multiple tiles spawning
+		hasPlayerPassed = true;
+
+		APlatformSpawner* platform = Cast<APlatformSpawner>(UGameplayStatics::GetActorOfClass(GetWorld(), APlatformSpawner::StaticClass()));
+
+		if (platform != nullptr)
 		{
-			gameMode->SpawnNextTile(sceneComp->GetComponentLocation());
+			platform->SpawnNextTile(sceneComp->GetComponentLocation());
 		}
 	}
 }
