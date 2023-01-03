@@ -70,8 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlatformBase); \
 
 
 #define PlatformRunner_Source_PlatformRunner_PlatformBase_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__triggerBox() { return STRUCT_OFFSET(APlatformBase, triggerBox); } \
-	FORCEINLINE static uint32 __PPO__platformSpawner() { return STRUCT_OFFSET(APlatformBase, platformSpawner); }
+	FORCEINLINE static uint32 __PPO__triggerBox() { return STRUCT_OFFSET(APlatformBase, triggerBox); }
 
 
 #define PlatformRunner_Source_PlatformRunner_PlatformBase_h_9_PROLOG

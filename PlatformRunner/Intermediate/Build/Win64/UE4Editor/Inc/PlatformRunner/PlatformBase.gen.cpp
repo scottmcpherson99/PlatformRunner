@@ -21,8 +21,6 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	PLATFORMRUNNER_API UClass* Z_Construct_UClass_APlatformSpawner_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(APlatformBase::execOnTriggerBoxOverlap)
 	{
@@ -143,10 +141,6 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_triggerBox_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_triggerBox;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_platformSpawner_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_platformSpawner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -174,18 +168,8 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformBase_Statics::NewProp_triggerBox = { "triggerBox", nullptr, (EPropertyFlags)0x002008000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformBase, triggerBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlatformBase_Statics::NewProp_triggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformBase_Statics::NewProp_triggerBox_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformBase_Statics::NewProp_platformSpawner_MetaData[] = {
-		{ "Category", "Platforms" },
-		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Platforms>\n" },
-		{ "ModuleRelativePath", "PlatformBase.h" },
-		{ "ToolTip", "<Platforms>" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformBase_Statics::NewProp_platformSpawner = { "platformSpawner", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformBase, platformSpawner), Z_Construct_UClass_APlatformSpawner_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformBase_Statics::NewProp_platformSpawner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformBase_Statics::NewProp_platformSpawner_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlatformBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformBase_Statics::NewProp_triggerBox,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformBase_Statics::NewProp_platformSpawner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlatformBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlatformBase>::IsAbstract,
@@ -214,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformBase, 4279984506);
+	IMPLEMENT_CLASS(APlatformBase, 3601972618);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlatformBase>()
 	{
 		return APlatformBase::StaticClass();

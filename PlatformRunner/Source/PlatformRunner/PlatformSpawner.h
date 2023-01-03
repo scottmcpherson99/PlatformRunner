@@ -27,6 +27,15 @@ public:
 	// <Tiles>
 	UPROPERTY(EditAnywhere, Category = "Platforms")
 		TSubclassOf<class APlatformBase> startingPlatform;
+
+	UPROPERTY(EditAnywhere, Category = "Platforms")
+		TSubclassOf<class APlatformBase> platform1;
+
+	UPROPERTY(EditAnywhere, Category = "Platforms")
+		TSubclassOf<class APlatformBase> platform2;
+
+	UPROPERTY(EditAnywhere, Category = "Platforms")
+		TSubclassOf<class APlatformBase> platform3;
 	// </Tiles>
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -46,6 +55,8 @@ protected:
 	// <Attributes>
 	UPROPERTY(EditAnywhere, Category = "Tiles", meta = (ClampMin = 3, ClampMax = 10))
 		int numberOfStartingTiles;
+
+	const int platformSize = 2000;
 	// </Attributes>
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 

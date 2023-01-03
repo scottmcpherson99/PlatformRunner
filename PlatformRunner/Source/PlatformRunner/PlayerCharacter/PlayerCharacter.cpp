@@ -35,10 +35,7 @@ APlayerCharacter::APlayerCharacter()
 	SideViewCameraComponent->bAutoActivate = true;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
-	// set the default attributes
-	baseJumpVelocity = 1000;
-	baseWalkSpeed = 600;
-	SetActivePowerup(EPowerup::ENone);
+	
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -49,7 +46,9 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	// set the default attributes
+	SetActivePowerup(EPowerup::ENone);
 }
 
 // Called every frame

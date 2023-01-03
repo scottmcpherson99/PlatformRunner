@@ -34,7 +34,7 @@ void APlatformSpawner::BeginPlay()
 		if (startingPlatform != nullptr)
 		{
 			GetWorld()->SpawnActor<APlatformBase>(startingPlatform, spawnLocation, spawnRotation, SpawnParams);
-			spawnLocation.X += 500;
+			spawnLocation.X += platformSize;
 		}
 	}
 }
@@ -52,16 +52,46 @@ void APlatformSpawner::Tick(float DeltaTime)
 void APlatformSpawner::SpawnNextTile(FVector tileLocation)
 {
 	// set the spawn location to be the location of the tile passed by the player plus the distance of the number of tiles spawned in
-	FVector spawnLocation = tileLocation + FVector(500 * numberOfStartingTiles, 0, 0);
+	FVector spawnLocation = tileLocation + FVector(platformSize * numberOfStartingTiles, 0, 0);
 	FRotator spawnRotation = (FRotator(0.f, 0.f, 0.f));
 
 	//set the spawn parameters for the drop
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.Owner = this;
 	SpawnParams.Instigator = GetInstigator();
-	if (startingPlatform != nullptr)
+
+	// select which tile to spawn
+	int tileToSpawn = rand() % 2 + 1;
+
+	switch (tileToSpawn)
 	{
-		GetWorld()->SpawnActor<APlatformBase>(startingPlatform, spawnLocation, spawnRotation, SpawnParams);
+		// spawn platform 1
+	case 1:
+		// if platform 1 is not a nullptr, spawn the platform
+		if (platform1 != nullptr)
+		{
+			GetWorld()->SpawnActor<APlatformBase>(platform1, spawnLocation, spawnRotation, SpawnParams);
+		}
+		break;
+
+		// spawn platform 2
+	case 2:
+		// if platform 2 is not a nullptr, spawn the platform
+		if (platform2 != nullptr)
+		{
+			GetWorld()->SpawnActor<APlatformBase>(platform2, spawnLocation, spawnRotation, SpawnParams);
+		}
+		break;
+
+		// spawn platform 3
+	case 3:
+		// if platform 3 is not a nullptr, spawn the platform
+		if (platform3 != nullptr)
+		{
+			GetWorld()->SpawnActor<APlatformBase>(platform3, spawnLocation, spawnRotation, SpawnParams);
+		}
+		break;
+
 	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////

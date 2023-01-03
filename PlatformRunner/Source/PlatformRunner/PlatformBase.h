@@ -50,9 +50,6 @@ protected:
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// <Platforms>
-	UPROPERTY(EditAnywhere, Category = "Platforms")
-		TSubclassOf<class APlatformSpawner> platformSpawner;
-
 	//check to see if the player has already passed section
 	bool hasPlayerPassed;
 	// </Platforms>
