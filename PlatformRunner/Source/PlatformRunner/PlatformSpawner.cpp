@@ -61,7 +61,7 @@ void APlatformSpawner::SpawnNextTile(FVector tileLocation)
 	SpawnParams.Instigator = GetInstigator();
 
 	// select which tile to spawn
-	int tileToSpawn = rand() % 2 + 1;
+	int tileToSpawn = rand() % 4 + 1;
 
 	switch (tileToSpawn)
 	{
@@ -89,6 +89,15 @@ void APlatformSpawner::SpawnNextTile(FVector tileLocation)
 		if (platform3 != nullptr)
 		{
 			GetWorld()->SpawnActor<APlatformBase>(platform3, spawnLocation, spawnRotation, SpawnParams);
+		}
+		break;
+
+		// spawn platform 4
+	case 4:
+		// if platform 4 is not a nullptr, spawn the platform
+		if (platform4 != nullptr)
+		{
+			GetWorld()->SpawnActor<APlatformBase>(platform4, spawnLocation, spawnRotation, SpawnParams);
 		}
 		break;
 

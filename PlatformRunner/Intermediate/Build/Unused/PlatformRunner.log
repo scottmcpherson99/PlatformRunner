@@ -2,11 +2,11 @@
   Building PlatformRunnerEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] DetectorShooter.cpp
-    [2/4] UE4Editor-PlatformRunner-0037.lib
-       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0037.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0037.exp
-    [3/4] UE4Editor-PlatformRunner-0037.dll
-       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0037.suppressed.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0037.suppressed.exp
+    [1/4] PlatformBase.cpp
+    [2/4] UE4Editor-PlatformRunner-0056.lib
+       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0056.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0056.exp
+    [3/4] UE4Editor-PlatformRunner-0056.dll
+       Creating library D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0056.suppressed.lib and object D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\UE4Editor-PlatformRunner-0056.suppressed.exp
     [4/4] PlatformRunnerEditor.target
-  Total time in Parallel executor: 6.39 seconds
-  Total execution time: 6.85 seconds
+  Total time in Parallel executor: 76.46 seconds
+  Total execution time: 76.89 seconds

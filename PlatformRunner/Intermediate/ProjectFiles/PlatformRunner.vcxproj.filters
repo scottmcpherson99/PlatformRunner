@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlatformRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{66FEFEA5-EF83-4FC5-9340-26F5A51AC131}</UniqueIdentifier>
+      <UniqueIdentifier>{41D3B573-888E-4673-9E89-C04675A03B86}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DA48DF66-6A72-46D6-97D2-37D12D8BF1BA}</UniqueIdentifier>
+      <UniqueIdentifier>{9F26FCFC-7E22-4222-8DA7-8B73848F7DF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PlatformRunner">
-      <UniqueIdentifier>{7D97DE50-183B-4167-A1D0-479258E0C589}</UniqueIdentifier>
+      <UniqueIdentifier>{76705953-97A3-4894-9101-AE5C2C1DE008}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\Arrow.cpp">
       <Filter>Source\PlatformRunner</Filter>
@@ -108,8 +108,14 @@
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\Obstacles">
-      <UniqueIdentifier>{3171B507-86B8-4776-81EA-DEF70F1160C6}</UniqueIdentifier>
+      <UniqueIdentifier>{6E8FB14A-4C14-4180-8185-7BE9A5BAD8CD}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ChasingWall.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\ChasingWall.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.cpp">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClCompile>
@@ -117,7 +123,7 @@
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\PlayerCharacter">
-      <UniqueIdentifier>{5F6ECD85-D741-47D8-B548-F3D39FA03CCC}</UniqueIdentifier>
+      <UniqueIdentifier>{20AE8857-59C5-4345-94BF-D25D06637C91}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.cpp">
       <Filter>Source\PlatformRunner\PlayerCharacter</Filter>

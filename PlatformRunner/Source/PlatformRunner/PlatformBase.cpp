@@ -3,6 +3,7 @@
 
 #include "PlatformBase.h"
 #include "PlatformRunner/PlayerCharacter/PlayerCharacter.h"
+#include "PlatformRunner/Obstacles/ChasingWall.h"
 #include "PlatformSpawner.h"
 #include "PlatformRunnerGameMode.h"
 #include "Components/SceneComponent.h"
@@ -67,6 +68,16 @@ void APlatformBase::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent
 		{
 			platform->SpawnNextTile(sceneComp->GetComponentLocation());
 		}
+		return;
 	}
+
+	// if the colliding actor is the chasing wall, delete the platform
+	AChasingWall* chasingWall = Cast<AChasingWall>(OtherActor);
+
+	if (chasingWall != nullptr)
+	{
+		Destroy();
+	}
+
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

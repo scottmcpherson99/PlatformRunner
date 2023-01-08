@@ -36,6 +36,9 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Platforms")
 		TSubclassOf<class APlatformBase> platform3;
+
+	UPROPERTY(EditAnywhere, Category = "Platforms")
+		TSubclassOf<class APlatformBase> platform4;
 	// </Tiles>
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -50,6 +50,10 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_platform3;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_platform4_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_platform4;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_numberOfStartingTiles_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_numberOfStartingTiles;
@@ -98,6 +102,13 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3 = { "platform3", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform3), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData[] = {
+		{ "Category", "Platforms" },
+		{ "ModuleRelativePath", "PlatformSpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4 = { "platform4", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform4), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_numberOfStartingTiles_MetaData[] = {
 		{ "Category", "Tiles" },
 		{ "ClampMax", "10" },
@@ -113,6 +124,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform1,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformSpawner_Statics::NewProp_numberOfStartingTiles,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlatformSpawner_Statics::StaticCppClassTypeInfo = {
@@ -142,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformSpawner, 2319968073);
+	IMPLEMENT_CLASS(APlatformSpawner, 460782340);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlatformSpawner>()
 	{
 		return APlatformSpawner::StaticClass();
