@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/PlatformSpawner.h"
+#include "PlatformRunner/Platforms/PlatformSpawner.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -67,15 +67,15 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "PlatformSpawner.h" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "IncludePath", "Platforms/PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_startingPlatform_MetaData[] = {
 		{ "Category", "Platforms" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Tiles>\n" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 		{ "ToolTip", "<Tiles>" },
 	};
 #endif
@@ -83,28 +83,28 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform1_MetaData[] = {
 		{ "Category", "Platforms" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform1 = { "platform1", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform1), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform1_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform2_MetaData[] = {
 		{ "Category", "Platforms" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform2 = { "platform2", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform2), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform2_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3_MetaData[] = {
 		{ "Category", "Platforms" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3 = { "platform3", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform3), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform3_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData[] = {
 		{ "Category", "Platforms" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4 = { "platform4", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformSpawner, platform4), Z_Construct_UClass_APlatformBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformSpawner_Statics::NewProp_platform4_MetaData)) };
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 		{ "ClampMax", "10" },
 		{ "ClampMin", "3" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Attributes>\n" },
-		{ "ModuleRelativePath", "PlatformSpawner.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformSpawner.h" },
 		{ "ToolTip", "<Attributes>" },
 	};
 #endif
@@ -154,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformSpawner, 460782340);
+	IMPLEMENT_CLASS(APlatformSpawner, 2967446424);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlatformSpawner>()
 	{
 		return APlatformSpawner::StaticClass();

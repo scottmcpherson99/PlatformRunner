@@ -1,5 +1,5 @@
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformSpawner.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Platforms\PlatformSpawner.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlatformSpawner.generated.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PlatformBase.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Platforms\PlatformBase.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\PlatformBase.generated.h

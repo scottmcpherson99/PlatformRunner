@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/DetectorShooter.h"
+#include "PlatformRunner/Obstacles/DetectorShooter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeDetectorShooter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADetectorShooter_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
-		{ "IncludePath", "DetectorShooter.h" },
-		{ "ModuleRelativePath", "DetectorShooter.h" },
+		{ "IncludePath", "Obstacles/DetectorShooter.h" },
+		{ "ModuleRelativePath", "Obstacles/DetectorShooter.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADetectorShooter_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeDetectorShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADetectorShooter, 1752075980);
+	IMPLEMENT_CLASS(ADetectorShooter, 2200897756);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<ADetectorShooter>()
 	{
 		return ADetectorShooter::StaticClass();

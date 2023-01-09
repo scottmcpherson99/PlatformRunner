@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/Arrow.h"
+#include "PlatformRunner/Obstacles/Arrow.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArrow_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Collision>\n" },
-		{ "ModuleRelativePath", "Arrow.h" },
+		{ "ModuleRelativePath", "Obstacles/Arrow.h" },
 		{ "ToolTip", "<Collision>" },
 	};
 #endif
@@ -160,12 +160,12 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PlatformRunner,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AArrow_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AArrow_OnOverlapBegin, "OnOverlapBegin" }, // 37355918
+		{ &Z_Construct_UFunction_AArrow_OnOverlapBegin, "OnOverlapBegin" }, // 951969911
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArrow_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Arrow.h" },
-		{ "ModuleRelativePath", "Arrow.h" },
+		{ "IncludePath", "Obstacles/Arrow.h" },
+		{ "ModuleRelativePath", "Obstacles/Arrow.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -173,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		{ "Category", "Components" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Components>\n// The root component\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Arrow.h" },
+		{ "ModuleRelativePath", "Obstacles/Arrow.h" },
 		{ "ToolTip", "<Components>\nThe root component" },
 	};
 #endif
@@ -183,7 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		{ "Category", "Components" },
 		{ "Comment", "//the arrow Mesh\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Arrow.h" },
+		{ "ModuleRelativePath", "Obstacles/Arrow.h" },
 		{ "ToolTip", "the arrow Mesh" },
 	};
 #endif
@@ -193,7 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		{ "Category", "Movement" },
 		{ "Comment", "// projectile movement component\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Arrow.h" },
+		{ "ModuleRelativePath", "Obstacles/Arrow.h" },
 		{ "ToolTip", "projectile movement component" },
 	};
 #endif
@@ -230,7 +230,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArrow, 246429364);
+	IMPLEMENT_CLASS(AArrow, 1854296261);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<AArrow>()
 	{
 		return AArrow::StaticClass();

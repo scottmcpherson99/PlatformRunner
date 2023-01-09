@@ -6,6 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "GameFramework/GameUserSettings.h"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Sets default values
@@ -56,6 +57,12 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// set the anti-aliasing to high
+	UGameUserSettings* gameUserSettings = UGameUserSettings::GetGameUserSettings();
+	if (gameUserSettings != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::FormatAsNumber(gameUserSettings->GetAntiAliasingQuality()));
+	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 

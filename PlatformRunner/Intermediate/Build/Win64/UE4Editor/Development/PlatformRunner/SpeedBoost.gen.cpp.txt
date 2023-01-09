@@ -1,8 +1,8 @@
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner/SpeedBoost.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PowerupBase.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner/Powerups/SpeedBoost.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Powerups\PowerupBase.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner/PlayerCharacter/PlayerCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h

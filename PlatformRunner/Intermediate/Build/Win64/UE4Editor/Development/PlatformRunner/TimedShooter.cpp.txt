@@ -1,5 +1,5 @@
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\TimedShooter.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Shooter.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Obstacles\TimedShooter.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Obstacles\Shooter.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\Shooter.generated.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Inc\PlatformRunner\TimedShooter.generated.h

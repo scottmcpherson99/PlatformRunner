@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/Shooter.h"
+#include "PlatformRunner/Obstacles/Shooter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -57,15 +57,15 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooter_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Shooter.h" },
-		{ "ModuleRelativePath", "Shooter.h" },
+		{ "IncludePath", "Obstacles/Shooter.h" },
+		{ "ModuleRelativePath", "Obstacles/Shooter.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooter_Statics::NewProp_arrowDrop_MetaData[] = {
 		{ "Category", "Spawn" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Spawn>\n// The arrow\n" },
-		{ "ModuleRelativePath", "Shooter.h" },
+		{ "ModuleRelativePath", "Obstacles/Shooter.h" },
 		{ "ToolTip", "<Spawn>\nThe arrow" },
 	};
 #endif
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 		{ "Category", "Components" },
 		{ "Comment", "//the shooter Mesh\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Shooter.h" },
+		{ "ModuleRelativePath", "Obstacles/Shooter.h" },
 		{ "ToolTip", "the shooter Mesh" },
 	};
 #endif
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 		{ "Category", "Components" },
 		{ "Comment", "// scene component for arrow spawn\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Shooter.h" },
+		{ "ModuleRelativePath", "Obstacles/Shooter.h" },
 		{ "ToolTip", "scene component for arrow spawn" },
 	};
 #endif
@@ -122,7 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShooter, 3647586878);
+	IMPLEMENT_CLASS(AShooter, 2807789082);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<AShooter>()
 	{
 		return AShooter::StaticClass();

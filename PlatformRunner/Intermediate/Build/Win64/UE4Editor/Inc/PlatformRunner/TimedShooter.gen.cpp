@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/TimedShooter.h"
+#include "PlatformRunner/Obstacles/TimedShooter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeTimedShooter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATimedShooter_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
-		{ "IncludePath", "TimedShooter.h" },
-		{ "ModuleRelativePath", "TimedShooter.h" },
+		{ "IncludePath", "Obstacles/TimedShooter.h" },
+		{ "ModuleRelativePath", "Obstacles/TimedShooter.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATimedShooter_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeTimedShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATimedShooter, 2171052465);
+	IMPLEMENT_CLASS(ATimedShooter, 3516150035);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<ATimedShooter>()
 	{
 		return ATimedShooter::StaticClass();

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlatformRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{41D3B573-888E-4673-9E89-C04675A03B86}</UniqueIdentifier>
+      <UniqueIdentifier>{EC7E125F-79D4-460A-B8C1-1F0A49194046}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlatformRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9F26FCFC-7E22-4222-8DA7-8B73848F7DF0}</UniqueIdentifier>
+      <UniqueIdentifier>{CAA55BF3-1CD7-46C7-B912-98A472209336}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,36 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PlatformRunner">
-      <UniqueIdentifier>{76705953-97A3-4894-9101-AE5C2C1DE008}</UniqueIdentifier>
+      <UniqueIdentifier>{6C8A6A48-49D1-45AD-AFAC-045DE1BDD6AF}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\PlatformRunner\Arrow.cpp">
+    <ClCompile Include="..\..\Source\PlatformRunner\ControlsWidget.cpp">
       <Filter>Source\PlatformRunner</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\Arrow.h">
+    <ClInclude Include="..\..\Source\PlatformRunner\ControlsWidget.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\DetectorShooter.cpp">
+    <ClCompile Include="..\..\Source\PlatformRunner\MainMenuWidget.cpp">
       <Filter>Source\PlatformRunner</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\DetectorShooter.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\JetPackBoost.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\JetPackBoost.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\JumpBoost.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\JumpBoost.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PlatformBase.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PlatformBase.h">
+    <ClInclude Include="..\..\Source\PlatformRunner\MainMenuWidget.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
     <None Include="..\..\Source\PlatformRunner\PlatformRunner.Build.cs">
@@ -71,49 +53,40 @@
     <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunner.h">
       <Filter>Source\PlatformRunner</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.cpp">
-      <Filter>Source\PlatformRunner</Filter>
+    <Filter Include="Source\PlatformRunner\GameSettings">
+      <UniqueIdentifier>{93400943-C0B1-4CFE-AD1A-BE26691E4A56}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\GameSettings\MainMenuGameModeBase.cpp">
+      <Filter>Source\PlatformRunner\GameSettings</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PlatformRunnerGameMode.h">
-      <Filter>Source\PlatformRunner</Filter>
+    <ClInclude Include="..\..\Source\PlatformRunner\GameSettings\MainMenuGameModeBase.h">
+      <Filter>Source\PlatformRunner\GameSettings</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PlatformSpawner.cpp">
-      <Filter>Source\PlatformRunner</Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\GameSettings\PlatformRunnerGameMode.cpp">
+      <Filter>Source\PlatformRunner\GameSettings</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PlatformSpawner.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\PowerupBase.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\PowerupBase.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\Shooter.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\Shooter.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\SpeedBoost.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\SpeedBoost.h">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PlatformRunner\TimedShooter.cpp">
-      <Filter>Source\PlatformRunner</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PlatformRunner\TimedShooter.h">
-      <Filter>Source\PlatformRunner</Filter>
+    <ClInclude Include="..\..\Source\PlatformRunner\GameSettings\PlatformRunnerGameMode.h">
+      <Filter>Source\PlatformRunner\GameSettings</Filter>
     </ClInclude>
     <Filter Include="Source\PlatformRunner\Obstacles">
-      <UniqueIdentifier>{6E8FB14A-4C14-4180-8185-7BE9A5BAD8CD}</UniqueIdentifier>
+      <UniqueIdentifier>{11DA612E-8015-4F05-8913-0FF0B0BDFE6D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\Arrow.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\Arrow.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ChasingWall.cpp">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\ChasingWall.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\DetectorShooter.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\DetectorShooter.h">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.cpp">
@@ -122,14 +95,68 @@
     <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\ObstacleBase.h">
       <Filter>Source\PlatformRunner\Obstacles</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\Shooter.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\Shooter.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Obstacles\TimedShooter.cpp">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Obstacles\TimedShooter.h">
+      <Filter>Source\PlatformRunner\Obstacles</Filter>
+    </ClInclude>
+    <Filter Include="Source\PlatformRunner\Platforms">
+      <UniqueIdentifier>{0326FCD7-CE93-4DEF-B22D-1B2793B7E0F5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\Platforms\PlatformBase.cpp">
+      <Filter>Source\PlatformRunner\Platforms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Platforms\PlatformBase.h">
+      <Filter>Source\PlatformRunner\Platforms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Platforms\PlatformSpawner.cpp">
+      <Filter>Source\PlatformRunner\Platforms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Platforms\PlatformSpawner.h">
+      <Filter>Source\PlatformRunner\Platforms</Filter>
+    </ClInclude>
     <Filter Include="Source\PlatformRunner\PlayerCharacter">
-      <UniqueIdentifier>{20AE8857-59C5-4345-94BF-D25D06637C91}</UniqueIdentifier>
+      <UniqueIdentifier>{7DC36A87-C6A0-4B48-9EE7-08A7734A921E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.cpp">
       <Filter>Source\PlatformRunner\PlayerCharacter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PlatformRunner\PlayerCharacter\PlayerCharacter.h">
       <Filter>Source\PlatformRunner\PlayerCharacter</Filter>
+    </ClInclude>
+    <Filter Include="Source\PlatformRunner\Powerups">
+      <UniqueIdentifier>{1277A16E-5214-4BC8-977F-7354F7062A41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PlatformRunner\Powerups\JetPackBoost.cpp">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Powerups\JetPackBoost.h">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Powerups\JumpBoost.cpp">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Powerups\JumpBoost.h">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Powerups\PowerupBase.cpp">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Powerups\PowerupBase.h">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlatformRunner\Powerups\SpeedBoost.cpp">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlatformRunner\Powerups\SpeedBoost.h">
+      <Filter>Source\PlatformRunner\Powerups</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

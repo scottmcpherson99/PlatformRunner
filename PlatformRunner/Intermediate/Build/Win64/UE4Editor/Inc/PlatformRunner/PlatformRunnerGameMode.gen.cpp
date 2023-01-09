@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/PlatformRunnerGameMode.h"
+#include "PlatformRunner/GameSettings/PlatformRunnerGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -48,8 +48,8 @@ void EmptyLinkFunctionForGeneratedCodePlatformRunnerGameMode() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformRunnerGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "PlatformRunnerGameMode.h" },
-		{ "ModuleRelativePath", "PlatformRunnerGameMode.h" },
+		{ "IncludePath", "GameSettings/PlatformRunnerGameMode.h" },
+		{ "ModuleRelativePath", "GameSettings/PlatformRunnerGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformRunnerGameMode() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformRunnerGameMode_Statics::NewProp_startingPlatform_MetaData[] = {
 		{ "Category", "Widget" },
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Tiles>\n" },
-		{ "ModuleRelativePath", "PlatformRunnerGameMode.h" },
+		{ "ModuleRelativePath", "GameSettings/PlatformRunnerGameMode.h" },
 		{ "ToolTip", "<Tiles>" },
 	};
 #endif
@@ -92,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformRunnerGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformRunnerGameMode, 151260279);
+	IMPLEMENT_CLASS(APlatformRunnerGameMode, 194845556);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlatformRunnerGameMode>()
 	{
 		return APlatformRunnerGameMode::StaticClass();

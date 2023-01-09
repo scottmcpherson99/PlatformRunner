@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/PowerupBase.h"
+#include "PlatformRunner/Powerups/PowerupBase.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -113,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodePowerupBase() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APowerupBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Collision>\n//checks to see if any actors have overlapped the collision box\n" },
-		{ "ModuleRelativePath", "PowerupBase.h" },
+		{ "ModuleRelativePath", "Powerups/PowerupBase.h" },
 		{ "ToolTip", "<Collision>\nchecks to see if any actors have overlapped the collision box" },
 	};
 #endif
@@ -155,12 +155,12 @@ void EmptyLinkFunctionForGeneratedCodePowerupBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PlatformRunner,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APowerupBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APowerupBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 3889854348
+		{ &Z_Construct_UFunction_APowerupBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 1676184464
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APowerupBase_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "PowerupBase.h" },
-		{ "ModuleRelativePath", "PowerupBase.h" },
+		{ "IncludePath", "Powerups/PowerupBase.h" },
+		{ "ModuleRelativePath", "Powerups/PowerupBase.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -168,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodePowerupBase() {}
 		{ "Category", "Components" },
 		{ "Comment", "// The box collision component\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "PowerupBase.h" },
+		{ "ModuleRelativePath", "Powerups/PowerupBase.h" },
 		{ "ToolTip", "The box collision component" },
 	};
 #endif
@@ -178,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodePowerupBase() {}
 		{ "Category", "Components" },
 		{ "Comment", "//the powerup Mesh\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "PowerupBase.h" },
+		{ "ModuleRelativePath", "Powerups/PowerupBase.h" },
 		{ "ToolTip", "the powerup Mesh" },
 	};
 #endif
@@ -214,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodePowerupBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APowerupBase, 774424669);
+	IMPLEMENT_CLASS(APowerupBase, 2843297453);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APowerupBase>()
 	{
 		return APowerupBase::StaticClass();

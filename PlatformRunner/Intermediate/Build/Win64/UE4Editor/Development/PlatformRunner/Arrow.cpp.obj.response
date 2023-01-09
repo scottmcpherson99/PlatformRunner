@@ -268,7 +268,7 @@
 /FI"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\PlatformRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\PlatformRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\PlatformRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Arrow.cpp"
+"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Obstacles\Arrow.cpp"
 /FI"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h"
 /Fo"D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Arrow.cpp.obj"
 /TP

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/PlatformBase.h"
+#include "PlatformRunner/Platforms/PlatformBase.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -112,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlatformBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "///////////////////////////////////////////////////////////////////////////////////////////////////////////\n// <Collision>\n//checks to see if any actors have overlapped the collision box\n" },
-		{ "ModuleRelativePath", "PlatformBase.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformBase.h" },
 		{ "ToolTip", "<Collision>\nchecks to see if any actors have overlapped the collision box" },
 	};
 #endif
@@ -150,12 +150,12 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PlatformRunner,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlatformBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APlatformBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 3453881690
+		{ &Z_Construct_UFunction_APlatformBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 1987715947
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformBase_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "PlatformBase.h" },
-		{ "ModuleRelativePath", "PlatformBase.h" },
+		{ "IncludePath", "Platforms/PlatformBase.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformBase.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -163,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 		{ "Category", "Components" },
 		{ "Comment", "// The box collision component\n" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "PlatformBase.h" },
+		{ "ModuleRelativePath", "Platforms/PlatformBase.h" },
 		{ "ToolTip", "The box collision component" },
 	};
 #endif
@@ -198,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformBase, 3601972618);
+	IMPLEMENT_CLASS(APlatformBase, 3620891744);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<APlatformBase>()
 	{
 		return APlatformBase::StaticClass();

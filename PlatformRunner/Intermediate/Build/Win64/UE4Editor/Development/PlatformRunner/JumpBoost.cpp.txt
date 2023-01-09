@@ -1,6 +1,6 @@
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Intermediate\Build\Win64\UE4Editor\Development\PlatformRunner\Definitions.PlatformRunner.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\JumpBoost.h
-D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\PowerupBase.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Powerups\JumpBoost.h
+D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner\Powerups\PowerupBase.h
 D:\Unreal Projects\GitHub\PlatformRunner\PlatformRunner\Source\PlatformRunner/PlayerCharacter/PlayerCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h

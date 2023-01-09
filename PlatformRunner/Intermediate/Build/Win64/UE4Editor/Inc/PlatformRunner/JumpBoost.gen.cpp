@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/JumpBoost.h"
+#include "PlatformRunner/Powerups/JumpBoost.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeJumpBoost() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AJumpBoost_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
-		{ "IncludePath", "JumpBoost.h" },
-		{ "ModuleRelativePath", "JumpBoost.h" },
+		{ "IncludePath", "Powerups/JumpBoost.h" },
+		{ "ModuleRelativePath", "Powerups/JumpBoost.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AJumpBoost_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeJumpBoost() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AJumpBoost, 1065905163);
+	IMPLEMENT_CLASS(AJumpBoost, 409973090);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<AJumpBoost>()
 	{
 		return AJumpBoost::StaticClass();

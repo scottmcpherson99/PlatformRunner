@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "PlatformRunner/SpeedBoost.h"
+#include "PlatformRunner/Powerups/SpeedBoost.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeSpeedBoost() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpeedBoost_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
-		{ "IncludePath", "SpeedBoost.h" },
-		{ "ModuleRelativePath", "SpeedBoost.h" },
+		{ "IncludePath", "Powerups/SpeedBoost.h" },
+		{ "ModuleRelativePath", "Powerups/SpeedBoost.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASpeedBoost_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedBoost() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpeedBoost, 3585467222);
+	IMPLEMENT_CLASS(ASpeedBoost, 79669911);
 	template<> PLATFORMRUNNER_API UClass* StaticClass<ASpeedBoost>()
 	{
 		return ASpeedBoost::StaticClass();
